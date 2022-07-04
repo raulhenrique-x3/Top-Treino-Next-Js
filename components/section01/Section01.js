@@ -5,17 +5,19 @@ import styles from '../section01/section01.module.scss'
 const Section01 = () => {
     return (
         <section className={styles.section01}>
-            <h1>What is Lorem Ipsum?
-                Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown 
-                printer took a galley of type and scrambled it to make a 
-                type specimen book. It has survived not only five centuries, 
-                but also the leap into electronic typesetting, remaining 
-                essentially unchanged. It was popularised in the 1960s with 
-                the release of Letraset sheets containing Lorem Ipsum passages,
-                and more recently with desktop publishing software like Aldus 
-                PageMaker including versions of Lorem Ipsum</h1>
+            <div className={styles.atletaJoaoImg}>
+                <Image
+                    src={'/joaoTopTreino.png'}
+                    width={500}
+                    height={500}
+                    layout={'fill'}
+                    alt={'Atleta João Vinicius'}
+                    className={styles.joaoTopTreino} />
+                    
+                <h1 className={styles.sect01Title}>Mais que uma <br/>academia, <br/>uma fábrica de <br/>CAMPEÕES!</h1>
+            </div>
+
+
         </section>
     )
 }
