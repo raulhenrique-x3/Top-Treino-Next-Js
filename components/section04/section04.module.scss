@@ -5,8 +5,7 @@ $font-family-01: 'Inter', sans-serif;
 .section04 {
     width: 100%;
     height: auto;
-    margin-top: 32px;
-    background-color: $primary-color;
+    background-color: #3e4193;
 }
 
 .ourPersonals {
@@ -37,6 +36,7 @@ $font-family-01: 'Inter', sans-serif;
     @media (min-width: 620px) {
         justify-content: center;
         flex-direction: row;
+        gap: 72px;
     }
 }
 
