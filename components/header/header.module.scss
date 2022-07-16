@@ -38,10 +38,15 @@ $text-shadow: 2px 1px #0000002a;
     }
 }
 
+.biList{
+    background-color: #0000006e;
+    border-radius: 100%;
+}
+
 .menuButton {
     border: none;
-    background-color: unset;
     color: #fff;
+    background: none;
 }
 
 .logo,

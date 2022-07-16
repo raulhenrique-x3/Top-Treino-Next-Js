@@ -4,7 +4,7 @@ import styles from '../section03/section03.module.scss'
 const Section03 = () => {
     return (
         <section className={styles.section03}>
-            <h2 className={styles.ourGym}>Nossa galeria</h2>
+            <h2 className={styles.ourGym}>Nossa academia</h2>
             <div className={styles.sect03Content}>
                 <div className={styles.gymPhotos}>
                     <div className={styles.principalGymPhoto}>
@@ -33,8 +33,6 @@ const Section03 = () => {
                             />
                         </div>
                     </div>
-                    <div className={styles.thirdGymPhoto}></div>
-
                 </div>
                 <div className={styles.viewMore}>
                     <a href='https://www.instagram.com/academiatoptreino/' className={styles.hrefInsta}>
