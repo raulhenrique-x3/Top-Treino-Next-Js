@@ -1,6 +1,6 @@
 $primary-color: #118ed0;
 $primary-color-620: #4771a3a3;
-$secondary-color: #77779d;
+$secondary-color: #580092;
 $font-family-01: Arial, Helvetica, sans-serif;
 $text-shadow: 2px 1px #0000002a;
 
@@ -12,6 +12,7 @@ $text-shadow: 2px 1px #0000002a;
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 999;
     transition: 0.6s;
 }
 
@@ -25,12 +26,22 @@ $text-shadow: 2px 1px #0000002a;
     display: block;
     width: 72px !important;
     height: 72px !important;
+
+    @media (min-width: 1440px) {
+        width: 128px !important;
+        height: 128px !important;
+    }
+
+    @media (min-width: 2560px) {
+        width: 192px !important;
+        height: 192px !important;
+    }
 }
 
 .menuButton {
     border: none;
     background-color: unset;
-    color: #000;
+    color: #fff;
 }
 
 .logo,
@@ -52,19 +63,25 @@ $text-shadow: 2px 1px #0000002a;
     flex-direction: column;
     text-align: center;
     justify-content: space-evenly;
-    background-color: $primary-color;
+    background-color: #580092e4;
     height: 100vh;
     position: relative;
     z-index: 1;
     width: 50vw;
-
-
 }
 
 .navList>li {
     font-family: $font-family-01;
     color: #fff;
-    font-weight: 500;
+    font-weight: 700;
+
+    @media (min-width: 1440px) {
+        font-size: 1.5rem !important;
+    }
+
+    @media (min-width: 2560px) {
+        font-size: 3rem !important;
+    }
 }
 
 .active {
@@ -85,6 +102,8 @@ $text-shadow: 2px 1px #0000002a;
     .header {
         flex-direction: row;
         align-items: center;
+        background-color: #fff;
+        box-shadow: 2px 2px #00000043;
     }
 
     .menu {
@@ -94,6 +113,7 @@ $text-shadow: 2px 1px #0000002a;
 
     .logo {
         height: unset;
+
     }
 
     .menuButton {
@@ -116,14 +136,14 @@ $text-shadow: 2px 1px #0000002a;
         width: 100%;
         padding: 18px;
         justify-content: end;
-        gap: 64px;
+        gap: 32px;
         background-color: unset;
     }
 
     .navList>li {
-        color: #000;
-        background-color: #fff;
-        padding: 8px;
+        color: $secondary-color;
         border-radius: 25px;
+        letter-spacing: 0.8px;
+        font-size: clamp(14px, 2.2vw, 16px);
     }
 }

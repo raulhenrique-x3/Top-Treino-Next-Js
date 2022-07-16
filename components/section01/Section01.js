@@ -5,19 +5,26 @@ import styles from '../section01/section01.module.scss'
 const Section01 = () => {
     return (
         <section className={styles.section01}>
-            <div className={styles.atletaJoaoImg}>
+            <div className={styles.section01Content}>
+                <div className={styles.section01h1}>
+                    <h1 className={styles.txtH1}>Mais que uma academia, somos
+                        <br />uma fábrica de CAMPEÕES!
+                    </h1>
+                    <div className={styles.section01Buttons}>
+                        <a href="#planos"><button className={styles.sect01Button}>Planos</button></a>
+                        <a><button className={styles.sect02Button}>Contatos</button></a>
+                    </div>
+                </div>
+
+
                 <Image
-                    src={'/joaoTopTreino.png'}
-                    width={500}
-                    height={500}
+                    src={'/gymBackGround.png'}
                     layout={'fill'}
-                    alt={'Atleta João Vinicius'}
-                    className={styles.joaoTopTreino} />
-                    
-                <h1 className={styles.sect01Title}>Mais que uma <br/>academia, <br/>uma fábrica de <br/>CAMPEÕES!</h1>
+                    className={styles.gymBg}
+                    priority
+                />
+
             </div>
-
-
         </section>
     )
 }
