@@ -26,9 +26,9 @@ const Section03 = () => {
                         </div>
                         <div className={styles.thirdGym}>
                             <Image
-                                src={'/personals.jpeg'}
+                                src={'/personalHelp2.jpeg'}
                                 layout={'fill'}
-                                alt={'personals'}
+                                alt={'personalHelp'}
                                 priority
                             />
                         </div>

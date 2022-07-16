@@ -1,6 +1,29 @@
+$primary-color: #0e8ed0;
+$secondary-color: #dcdcdc7a;
+$font-family-01: 'Inter', sans-serif;
+
 .section04 {
     width: 100%;
     height: auto;
+    margin-top: 32px;
+    background-color: $primary-color;
+}
+
+.ourPersonals {
+    text-align: center;
+    font-family: $font-family-01;
+    color: #fff;
+    padding: 16px;
+
+    @media (min-width: 1440px) {
+        padding: 16px;
+        font-size: 3rem;
+    }
+
+    @media (min-width: 2560px) {
+        padding: 32px;
+        font-size: 5rem;
+    }
 }
 
 .sect04Content {
@@ -9,17 +32,82 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
+    gap: 16px;
+
+    @media (min-width: 620px) {
+        justify-content: center;
+        flex-direction: row;
+    }
 }
 
 .personal {
     width: 50%;
     height: 70%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    @media (min-width: 620px) {
+        width: 20%;
+    }
 }
 
 .personalImg {
     width: 50vw;
-    height: 25vh;
+    height: 30vh;
     display: block;
     position: relative;
+    border: 1px solid rgb(186, 186, 186);
+
+    @media (min-width: 620px) {
+        width: 100%;
+        height: 40vh;
+    }
+}
+
+.personalInfo {
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: $font-family-01;
+    color: #000;
+    font-weight: 600;
+    background-color: #fff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    @media (min-width: 1440px) {
+        font-size: 2rem;
+    }
+
+    @media (min-width: 2560px) {
+        font-size: 3rem;
+    }
+}
+
+.instagramFollow {
+    width: 100%;
+    height: auto;
+    background: rgb(64, 93, 230);
+    background: linear-gradient(85deg, rgba(64, 93, 230, 1) 13%, rgba(225, 48, 108, 1) 100%);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 8px;
+}
+
+.biInstagram {
+    color: #fff;
+
+    @media (min-width: 620px){
+        width: 24px;
+        height: 24px;
+    }
+
+    @media (min-width: 1440px) {
+        width: 48px;
+        height: 48px;
+    }
+
+    @media (min-width: 2560px) {
+        width: 64px;
+        height: 64px;
+    }
 }
