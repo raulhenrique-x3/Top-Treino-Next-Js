@@ -5,7 +5,7 @@ const Section03 = () => {
     return (
         <section className={styles.section03}>
             <h2 className={styles.ourGym}>Nossa academia</h2>
-            <div className={styles.sect03Content}>
+            <main className={styles.sect03Content}>
                 <div className={styles.gymPhotos}>
                     <div className={styles.principalGymPhoto}>
                         <Image
@@ -44,7 +44,7 @@ const Section03 = () => {
                         </button>
                     </a>
                 </div>
-            </div>
+            </main>
         </section>
     )
 }

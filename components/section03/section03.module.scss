@@ -10,12 +10,11 @@ $font-family-01: 'Inter', sans-serif;
 
 .ourGym {
     font-family: $font-family-01;
-    font-family: 'Inter', sans-serif;
     text-align: center;
     font-size: 1.8rem;
     color: #fff;
     padding: 8px;
-
+    
     @media (min-width: 1440px) {
         padding: 16px;
         font-size: 3rem;
