@@ -1,7 +1,6 @@
-$primary-color: #4771a3;
-$primary-color-620: #4771a3a3;
-$secondary-color: #77779d;
-$third-color: #1A002B;
+$primary-color: #0c0f5e;
+$secondary-color: #0e8ed0;
+$third-color: #3e4193;
 
 $font-family-01: 'Inter', sans-serif;
 $text-shadow: 2px 1px #0000002a;
@@ -14,7 +13,6 @@ $text-shadow: 2px 1px #0000002a;
 .section01Content {
     width: 100%;
     height: 60vh;
-    display: block;
     position: relative;
     z-index: -1;
 
@@ -26,6 +24,8 @@ $text-shadow: 2px 1px #0000002a;
     @media (min-width: 620px) {
         margin-top: 75px;
         height: 80vh;
+        display: flex;
+        justify-content: space-around;
     }
 
     @media (min-width: 1440px) {
@@ -53,8 +53,12 @@ $text-shadow: 2px 1px #0000002a;
     }
 
     @media (min-width: 620px) {
-        padding: 64px;
-        height: 100vh;
+        width: 50%;
+        height: 100%;
+        position: unset;
+        z-index: unset;
+        padding-left: 32px;
+        background-color: #3e4193;
     }
 }
 
@@ -92,7 +96,7 @@ $text-shadow: 2px 1px #0000002a;
     border-radius: 10px;
     font-size: 1rem;
     font-weight: 600;
-    
+
     @media (min-width: 620px) {
         padding: 16px 48px 16px 48px;
     }
@@ -109,19 +113,21 @@ $text-shadow: 2px 1px #0000002a;
 }
 
 .sect02Button {
-    background: rgba(255, 255, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    background: #ffffff40;
+    box-shadow: 0 8px 32px 0 #1f26875e;
     backdrop-filter: blur(6px);
     -webkit-backdrop-filter: blur(6px);
     border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
+    border: 1px solid #ffffff2e;
 }
 
-
-.gymBg {
-    filter: blur(1.5px);
+.gymBackGround {
+    position: relative;
+    width: 100%;
+    height: 100%;
 
     @media (min-width: 620px) {
-        filter: blur(2px);
+        width: 50%;
     }
 }
+

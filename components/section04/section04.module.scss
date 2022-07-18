@@ -56,7 +56,7 @@ $font-family-01: 'Inter', sans-serif;
     height: 30vh;
     display: block;
     position: relative;
-    border: 1px solid rgb(186, 186, 186);
+    border: 1px solid #bababa;
 
     @media (min-width: 620px) {
         width: 100%;
@@ -70,7 +70,8 @@ $font-family-01: 'Inter', sans-serif;
     font-family: $font-family-01;
     color: #000;
     font-weight: 600;
-    background-color: #fff;
+    background-color: #eeeeee;
+    padding: 8px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
 

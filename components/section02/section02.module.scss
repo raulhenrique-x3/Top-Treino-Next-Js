@@ -1,12 +1,13 @@
 $primary-color: #0c0f5e;
-$secondary-color: #0e8ed0; 
+$secondary-color: #0e8ed0;
+$third-color: #3e4193;
 $font-family-01: 'Inter', sans-serif;
 
 
     .Section02 {
         width: 100%;
         height: auto;
-        background-color: #3e4193;
+        background-color: #eeeeee;
         
         @media (min-width: 620px) {
             min-height: 100vh;
@@ -25,7 +26,7 @@ $font-family-01: 'Inter', sans-serif;
         font-family: 'Inter', sans-serif;
         text-align: center;
         font-size: 1.8rem;
-        color: #fff;
+        color: $primary-color;
         padding: 8px;
 
         @media (min-width: 1440px) {
@@ -162,3 +163,4 @@ $font-family-01: 'Inter', sans-serif;
         background-color: $secondary-color;
         transition: 0.3s ease-in-out;
     }
+
