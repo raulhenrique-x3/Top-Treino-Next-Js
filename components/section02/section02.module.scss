@@ -35,12 +35,12 @@ $font-family-01: 'Inter', sans-serif;
 
     @media (min-width: 1440px) {
         padding: 16px;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     @media (min-width: 2560px) {
         padding: 32px;
-        font-size: 5rem;
+        font-size: 4rem;
     }
 }
 
@@ -87,7 +87,12 @@ $font-family-01: 'Inter', sans-serif;
         height: 40vh;
     }
 
+    @media (min-width: 1440px) {
+        width: 20%;
+    }
+
     @media (min-width: 2560px) {
+        width: 30%;
         border-radius: 10px;
     }
 }
@@ -106,12 +111,12 @@ $font-family-01: 'Inter', sans-serif;
 
     @media (min-width: 1440px) {
         padding: 16px;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     @media (min-width: 2560px) {
         padding: 24px;
-        font-size: 4rem;
+        font-size: 2.8rem;
     }
 }
 
@@ -127,12 +132,12 @@ $font-family-01: 'Inter', sans-serif;
 
     @media (min-width: 1440px) {
         padding: 16px;
-        font-size: 2rem;
+        font-size: 1.4rem;
     }
 
     @media (min-width: 2560px) {
         padding: 24px;
-        font-size: 4rem;
+        font-size: 2.9rem;
     }
 }
 
@@ -147,14 +152,14 @@ $font-family-01: 'Inter', sans-serif;
     font-weight: 600;
 
     @media (min-width: 620px) {
-        padding: 16px 32px 16px 32px;
+        padding: 16px 24px 16px 24px;
         font-size: 1.2rem;
         cursor: pointer;
     }
 
     @media (min-width: 1440px) {
-        padding: 16px 32px 16px 32px;
-        font-size: 2rem;
+        padding: 16px 24px 16px 24px;
+        font-size: 1.4rem;
     }
 
     @media (min-width: 2560px) {

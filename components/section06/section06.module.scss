@@ -15,14 +15,15 @@ $font-family-01: 'Inter', sans-serif;
     color: $primary-color;
     padding: 8px;
 
+
     @media (min-width: 1440px) {
         padding: 16px;
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     @media (min-width: 2560px) {
         padding: 32px;
-        font-size: 5rem;
+        font-size: 4rem;
     }
 }
 
@@ -82,6 +83,14 @@ $font-family-01: 'Inter', sans-serif;
         margin-bottom: 8px;
         cursor: pointer;
     }
+
+    @media (min-width: 1440px) {
+        font-size: 1.3rem;
+    }
+
+    @media (min-width: 2560px) {
+        font-size: 2rem;
+    }
 }
 
 .biInstagram,
@@ -116,10 +125,10 @@ $font-family-01: 'Inter', sans-serif;
     }
 
     @media (min-width: 1440px) {
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 
     @media (min-width: 2560px) {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
