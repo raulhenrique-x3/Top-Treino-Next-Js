@@ -1,0 +1,125 @@
+$primary-color: #0c0f5e;
+$secondary-color: #dcdcdc7a;
+$font-family-01: 'Inter', sans-serif;
+
+.section06 {
+    width: 100%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+.contactsHours {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+    color: $primary-color;
+    padding: 8px;
+
+    @media (min-width: 1440px) {
+        padding: 16px;
+        font-size: 3rem;
+    }
+
+    @media (min-width: 2560px) {
+        padding: 32px;
+        font-size: 5rem;
+    }
+}
+
+.sect06Cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    height: 100%;
+
+    @media (min-width: 620px) {
+        flex-direction: row;
+    }
+}
+
+.contacts {
+    width: 100%;
+    background-color: #fff;
+    color: $primary-color;
+    font-size: 1rem;
+    font-family: $font-family-01;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    @media (min-width: 620px) {
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media (min-width: 1440px) {
+        font-size: 2rem;
+    }
+
+    @media (min-width: 2560px) {
+        font-size: 3rem;
+    }
+}
+
+.socialMedia,
+.funcHour {
+    text-align: center;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.gymContact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    @media (min-width: 620px) {
+        margin-bottom: 8px;
+        cursor: pointer;
+    }
+}
+
+.biInstagram,
+.bifacebook,
+.bienvelopefill {
+
+    @media (min-width: 1440px) {
+        width: 32px;
+        height: 32px;
+    }
+
+    @media (min-width: 2560px) {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+.hours {
+    font-family: $font-family-01;
+    background-color: #fff;
+    width: 100%;
+    color: $primary-color;
+    padding: 16px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    @media (min-width: 620px) {
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    @media (min-width: 1440px) {
+        font-size: 2rem;
+    }
+
+    @media (min-width: 2560px) {
+        font-size: 3rem;
+    }
+}

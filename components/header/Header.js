@@ -32,7 +32,7 @@ const Header = () => {
                         <a href="#sect02"><li className={styles.liList}>Nossos planos</li></a>
                         <a href="#sect03"><li className={styles.liList}>Nossa academia</li></a>
                         <a href="#sect05"><li className={styles.liList}>Localização</li></a>
-                        <a href=""><li className={styles.liList}>Contatos</li></a>
+                        <a href="#sect06"><li className={styles.liList}>Contatos</li></a>
                     </ul>
                 </nav>
             </div>

@@ -38,4 +38,3 @@ const Section05 = () => {
 };
 
 export default Section05;
-// className={styles.}
