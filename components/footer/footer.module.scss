@@ -1,0 +1,43 @@
+$font-family-01: 'Inter', sans-serif;
+$primary-color: #0c0f5e;
+
+.footer,
+.developer{
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    font-family: $font-family-01;
+    padding: 16px;
+
+    @media (min-width: 1440px) {
+        font-size: 1.5rem;
+    }
+
+    @media (min-width: 2560px) {
+        font-size: 2rem;
+    }
+}
+
+.dev{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.developer{
+    width: 38px;
+    height: 32px;
+    position: relative;
+
+    @media (min-width: 1440px) {
+        width: 48px;
+        height: 40px;
+    }
+
+    @media (min-width: 2560px) {
+        width: 52px;
+        height: 48px;
+    }
+}
