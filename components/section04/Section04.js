@@ -51,7 +51,7 @@ const Section04 = () => {
                             </div>
                         </div>
                         <div className={styles.personalInfo}>
-                            <p>Bruno Verissímo</p>
+                            <p className={styles.profName}>Bruno Verissímo</p>
                             <p className={styles.hour}>Tarde</p>
                         </div>
                     </a>
