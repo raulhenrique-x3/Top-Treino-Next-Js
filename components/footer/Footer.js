@@ -5,16 +5,17 @@ const Footer = () => {
     return (
         <footer className={styles.footer}>
             <p>© 2022, Todos os direitos reservados.</p>
-            <div className={styles.dev}>
-                <p>Desenvolvedor:</p>
-                <div className={styles.developer}>
-                    <Image
-                        src={'/logotitle.png'}
-                        layout={'fill'}
-                    />
+            <a href='https://raul-henrique-dev.vercel.app/'>
+                <div className={styles.dev}>
+                    <p>Desenvolvedor:</p>
+                    <div className={styles.developer}>
+                        <Image
+                            src={'/logotitle.png'}
+                            layout={'fill'}
+                        />
+                    </div>
                 </div>
-            </div>
-
+            </a>
         </footer>
     )
 };
