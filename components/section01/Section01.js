@@ -11,9 +11,9 @@ const Section01 = () => {
                         <br />uma fábrica de CAMPEÕES!
                     </h1>
                     <div className={styles.section01Buttons}>
-                        <a href="#planos">
+                        <a href="#sect02">
                             <button className={styles.sect01Button}>Planos</button></a>
-                        <a>
+                        <a href="#sect06">
                             <button className={styles.sect02Button}>Contatos</button></a>
                     </div>
                 </div>
