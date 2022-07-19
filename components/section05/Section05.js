@@ -2,7 +2,7 @@ import styles from '../section05/section05.module.scss';
 
 const Section05 = () => {
     return (
-        <section className={styles.section05}>
+        <section className={styles.section05} id='sect05'>
             <h2 className={styles.local}>Localização</h2>
             <div className={styles.sect05Cont}>
                 <div className={styles.localInfo}>

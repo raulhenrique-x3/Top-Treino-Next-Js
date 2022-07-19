@@ -29,10 +29,10 @@ const Header = () => {
             <div className={styles.menuItem}>
                 <nav className={active ? styles.active : styles.unactive}>
                     <ul className={styles.navList}>
-                        <li>Nossa estrutura</li>
-                        <li>Nossos planos</li>
-                        <li>Localização</li>
-                        <li>Contatos</li>
+                        <a href="#sect02"><li className={styles.liList}>Nossos planos</li></a>
+                        <a href="#sect03"><li className={styles.liList}>Nossa academia</li></a>
+                        <a href="#sect05"><li className={styles.liList}>Localização</li></a>
+                        <a href=""><li className={styles.liList}>Contatos</li></a>
                     </ul>
                 </nav>
             </div>

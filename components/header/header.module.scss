@@ -75,7 +75,7 @@ $text-shadow: 2px 1px #0000002a;
     width: 50vw;
 }
 
-.navList>li {
+.liList {
     font-family: $font-family-01;
     color: #fff;
     font-weight: 700;
@@ -145,10 +145,11 @@ $text-shadow: 2px 1px #0000002a;
         background-color: unset;
     }
 
-    .navList>li {
+    .liList {
         color: $secondary-color;
         border-radius: 25px;
         letter-spacing: 0.8px;
         font-size: clamp(14px, 2.2vw, 16px);
+        cursor: pointer;
     }
 }

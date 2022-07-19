@@ -2,7 +2,7 @@ import styles from '../section02/section02.module.scss'
 
 const Section02 = () => {
     return (
-        <section className={styles.Section02}>
+        <section className={styles.Section02} id='sect02'>
             <h2 className={styles.ourPlans}>Nossos planos</h2>
             <main className={styles.Section02Main}>
                 <figure className={styles.plansInfoFig}>
