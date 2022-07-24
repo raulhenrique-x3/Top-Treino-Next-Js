@@ -49,13 +49,15 @@ $font-family-01: 'Inter', sans-serif;
     font-family: $font-family-01;
     padding: 16px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
     @media (min-width: 620px) {
         height: 25vh;
         display: flex;
-        flex-direction: column;
-        justify-content: center;
     }
 
     @media (min-width: 1440px) {
@@ -67,6 +69,27 @@ $font-family-01: 'Inter', sans-serif;
     }
 }
 
+.contactButton {
+    background: none;
+    border: 1px solid #00000043;
+    border-radius: 100%;
+    background-color: #0c0f5e;
+    padding: 8px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    @media (min-width: 620px) {
+        padding: 16px;
+    }
+
+    @media (min-width: 1440px) {
+        padding: 24px;
+    }
+
+    @media (min-width: 2560px) {
+        padding: 32px;
+    }
+}
+
 .socialMedia,
 .funcHour {
     text-align: center;
@@ -74,28 +97,14 @@ $font-family-01: 'Inter', sans-serif;
     padding: 8px;
 }
 
-.gymContact {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-
-    @media (min-width: 620px) {
-        margin-bottom: 8px;
-        cursor: pointer;
-    }
-
-    @media (min-width: 1440px) {
-        font-size: 1.3rem;
-    }
-
-    @media (min-width: 2560px) {
-        font-size: 2rem;
-    }
-}
 
 .biInstagram,
 .bifacebook,
 .bienvelopefill {
+
+    width: 24px;
+    height: 24px;
+    color: #fff;
 
     @media (min-width: 1440px) {
         width: 32px;
@@ -115,6 +124,10 @@ $font-family-01: 'Inter', sans-serif;
     color: $primary-color;
     padding: 16px;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
     @media (min-width: 620px) {
