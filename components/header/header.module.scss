@@ -5,156 +5,154 @@ $font-family-01: Arial, Helvetica, sans-serif;
 $text-shadow: 2px 1px #0000002a;
 
 .header {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    transition: 0.6s;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  transition: 0.6s;
 }
 
 .menu {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .logo {
-    display: block;
-    width: 72px !important;
-    height: 72px !important;
+  display: block;
+  width: 72px !important;
+  height: 72px !important;
 
-    @media (min-width: 1440px) {
-        width: 88px !important;
-        height: 88px !important;
-    }
+  @media (min-width: 1440px) {
+    width: 88px !important;
+    height: 88px !important;
+  }
 
-    @media (min-width: 2560px) {
-        width: 106px !important;
-        height: 106px !important;
-    }
+  @media (min-width: 2560px) {
+    width: 106px !important;
+    height: 106px !important;
+  }
 }
 
-.biList{
-    background-color: #0000006e;
-    border-radius: 100%;
+.biList {
+  background-color: #0000006e;
+  border-radius: 100%;
 }
 
 .menuButton {
-    border: none;
-    color: #fff;
-    background: none;
+  border: none;
+  color: #fff;
+  background: none;
 }
 
 .logo,
 .menuButton {
-    padding: 8px;
+  padding: 8px;
 }
 
 .menuItem {
-    position: absolute;
-    z-index: -1;
-    margin-left: 50%;
-    display: flex;
-    justify-content: right;
-    width: 100%;
+  display: flex;
+  justify-content: right;
+  position: absolute;
+  z-index: -99;
+  width: 125vw;
 }
 
 .navList {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: space-evenly;
-    background-color: $secondary-color;
-    border-left: 1px solid #eee;
-    height: 100vh;
-    position: relative;
-    z-index: 1;
-    width: 50vw;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  background-color: $secondary-color;
+  border-left: 1px solid #eee;
+  height: 100vh;
+  position: absolute;
+  z-index: 1;
+  width: 60%;
 
-    @media (min-width:620px){
-        border: none;
-    }
+  @media (min-width: 620px) {
+    border: none;
+    position: unset;
+    z-index: 1;
+  }
 }
 
 .liList {
-    font-family: $font-family-01;
-    color: #fff;
-    font-weight: 700;
+  font-family: $font-family-01;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.3rem;
 
-    @media (min-width: 1440px) {
-        font-size: 1.2rem !important;
-    }
+  @media (min-width: 1440px) {
+    font-size: 1.2rem !important;
+  }
 
-    @media (min-width: 2560px) {
-        font-size: 1.8rem !important;
-    }
+  @media (min-width: 2560px) {
+    font-size: 1.8rem !important;
+  }
 }
 
 .active {
-    transition: width 0.3s ease-in-out;
-    width: 100vw; //Largura max do elemento a ser exibido
-    overflow: hidden;
+  transition: width 0.3s ease-in-out;
+  width: 100vw; //Largura max do elemento a ser exibido
+  overflow: hidden;
 }
 
 .unactive {
-    transition: width 0.3s ease-in-out;
-    width: 0;
-    overflow: hidden;
+  transition: width 0.3s ease-in-out;
+  width: 0;
+  overflow: hidden;
 }
 
-
 @media (min-width: 620px) {
+  .header {
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 2px 2px #00000043;
+  }
 
-    .header {
-        flex-direction: row;
-        align-items: center;
-        background-color: #fff;
-        box-shadow: 2px 2px #00000043;
-    }
+  .menu {
+    align-items: center;
+    width: unset;
+  }
 
-    .menu {
-        align-items: center;
-        width: unset;
-    }
+  .logo {
+    height: unset;
+  }
 
-    .logo {
-        height: unset;
+  .menuButton {
+    display: none;
+  }
 
-    }
+  .unactive {
+    width: 100%;
+  }
 
-    .menuButton {
-        display: none;
-    }
+  .menuItem {
+    margin: 0;
+    justify-content: unset;
+    position: unset;
+  }
 
-    .unactive {
-        width: 100%;
-    }
+  .navList {
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    padding: 18px;
+    justify-content: end;
+    gap: 32px;
+    background-color: unset;
+  }
 
-    .menuItem {
-        margin: 0;
-        justify-content: unset;
-        position: unset;
-    }
-
-    .navList {
-        flex-direction: row;
-        height: auto;
-        width: 100%;
-        padding: 18px;
-        justify-content: end;
-        gap: 32px;
-        background-color: unset;
-    }
-
-    .liList {
-        color: $secondary-color;
-        border-radius: 25px;
-        letter-spacing: 0.8px;
-        font-size: clamp(14px, 2.2vw, 16px);
-        cursor: pointer;
-    }
+  .liList {
+    color: $secondary-color;
+    border-radius: 25px;
+    letter-spacing: 0.8px;
+    cursor: pointer;
+  }
 }
