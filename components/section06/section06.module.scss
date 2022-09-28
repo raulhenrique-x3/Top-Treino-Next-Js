@@ -47,16 +47,15 @@ $font-family-01: "Inter", sans-serif;
   color: $primary-color;
   font-size: 1rem;
   font-family: $font-family-01;
-  padding: 16px;
+  margin: 16px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 64px;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
   @media (min-width: 620px) {
-    height: 25vh;
+    height: 150px;
     display: flex;
   }
 
@@ -120,16 +119,15 @@ $font-family-01: "Inter", sans-serif;
   background-color: #fff;
   width: 100%;
   color: $primary-color;
-  padding: 16px;
+  margin: 16px;
   border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
   @media (min-width: 620px) {
-    height: 25vh;
+    height: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
