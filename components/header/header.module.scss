@@ -67,7 +67,7 @@ $text-shadow: 2px 1px #0000002a;
   flex-direction: column;
   text-align: center;
   justify-content: space-evenly;
-  background-color: $secondary-color;
+  background-color: $primary-color;
   border-left: 1px solid #eee;
   height: 100vh;
   position: absolute;
@@ -94,6 +94,14 @@ $text-shadow: 2px 1px #0000002a;
   @media (min-width: 2560px) {
     font-size: 1.8rem !important;
   }
+}
+
+.aHeader {
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
 }
 
 .active {

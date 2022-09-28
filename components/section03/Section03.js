@@ -4,16 +4,17 @@ import styles from "../section03/section03.module.scss";
 const Section03 = () => {
   return (
     <section className={styles.section03} id="sect03">
-      <h2 className={styles.ourGym}>Nossa academia</h2>
       <main className={styles.sect03Content}>
         <div className={styles.gymSectInfo}>
           <div className={styles.principalGymPhoto}>
-            <Image src={"/topTreinoDoor.jpeg"} layout={"fill"} alt={"topTreinoDoor"} priority />
+            <Image src={"/topTreinoDoor.jpeg"} layout={"fill"} alt={"topTreinoDoor"} priority objectFit={"cover"} />
           </div>
 
           <div className={styles.gymInfo}>
+            <h2 className={styles.ourGym}>Nossa academia</h2>
+
             <p className={styles.gymMerch}>
-              Somos a academia mais barata da região de Cavaleiro!
+              Somos a academia mais <b>barata</b> da região de <b>Cavaleiro!</b>
               <br />
               Venha conhecer nossas ofertas exclusivas atráves de nosso Instagram!
             </p>

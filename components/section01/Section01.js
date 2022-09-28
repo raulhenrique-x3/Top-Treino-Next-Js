@@ -9,12 +9,20 @@ const Section01 = () => {
           <h1 className={styles.txtH1}>
             Mais que uma academia, somos
             <br />
-            uma fábrica de CAMPEÕES!
+            uma fábrica de <p className={styles.champions}>CAMPEÕES!</p>
           </h1>
+          <button className={styles.ourPlansButton}>Conheça nossos planos!</button>
         </div>
 
         <div className={styles.gymBackGround}>
-          <Image src={"/gymBackGround.png"} layout={"fill"} className={styles.gymBg} priority alt="imagemDaAcademia" />
+          <Image
+            src={"/gymBackGround.png"}
+            layout={"fill"}
+            className={styles.gymBg}
+            priority
+            alt="imagemDaAcademia"
+            objectFit={"cover"}
+          />
         </div>
       </div>
     </section>

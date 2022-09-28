@@ -1,178 +1,175 @@
 $primary-color: #0c0f5e;
 $secondary-color: #dcdcdc7a;
-$font-family-01: 'Inter', sans-serif;
+$third-color: #0e8ed0;
+$font-family-01: "Inter", sans-serif;
 
 .section04 {
-    width: 100%;
-    height: auto;
-    background-color: #eeeeee;
+  width: 100%;
+  height: auto;
+  background-color: #eeeeee;
 }
 
 .ourPersonals {
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    font-size: 1.8rem;
-    color: $primary-color;
-    padding: 8px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 1.8rem;
+  color: $third-color;
+  padding: 8px;
 
+  @media (min-width: 1440px) {
+    padding: 16px;
+    font-size: 2rem;
+  }
 
-    @media (min-width: 1440px) {
-        padding: 16px;
-        font-size: 2rem;
-    }
-
-    @media (min-width: 2560px) {
-        padding: 32px;
-        font-size: 4rem;
-    }
+  @media (min-width: 2560px) {
+    padding: 32px;
+    font-size: 4rem;
+  }
 }
 
 .sect04Content {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
 
-    @media (min-width: 620px) {
-        justify-content: center;
-        flex-direction: row;
-        gap: 72px;
-    }
+  @media (min-width: 620px) {
+    justify-content: center;
+    flex-direction: row;
+    gap: 72px;
+  }
 }
 
 .personal {
-    width: 200px;
-    height: 70%;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-bottom: 8px;
+  width: 200px;
+  height: 70%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-bottom: 8px;
 
-    @media (min-width: 620px) {
-        width: 25vw;
-        cursor: pointer;
-    }
-    @media (min-width: 1024px){
-        width: 20vw;
-
-    }
+  @media (min-width: 620px) {
+    width: 25vw;
+    cursor: pointer;
+  }
+  @media (min-width: 1024px) {
+    width: 20vw;
+  }
 }
 
 .personalImg {
-    width: 200px;
-    height: 30vh;
-    display: block;
-    position: relative;
+  width: 200px;
+  height: 30vh;
+  display: block;
+  position: relative;
 
-    @media (min-width: 620px) {
-        width: 100%;
-        height: 40vh;
-    }
+  @media (min-width: 620px) {
+    width: 100%;
+    height: 40vh;
+  }
 }
 
 .personalInfo {
-    text-align: center;
-    font-size: 1.2rem;
-    font-family: $font-family-01;
-    color: #fff;
-    font-weight: 600;
-    background-color: $primary-color;
-    padding: 8px;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: $font-family-01;
+  color: #fff;
+  font-weight: 600;
+  background-color: $third-color;
+  padding: 8px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 
-    @media (min-width: 1440px) {
-        font-size: 1.55rem;
-    }
+  @media (min-width: 1440px) {
+    font-size: 1.55rem;
+  }
 
-    @media (min-width: 2560px) {
-        font-size: 3rem;
-    }
+  @media (min-width: 2560px) {
+    font-size: 3rem;
+  }
 }
 
 .profName {
-    font-size: 1rem;
+  font-size: 1rem;
 
-    @media (min-width: 1440px) {
-        font-size: 1.5rem;
-    }
+  @media (min-width: 1440px) {
+    font-size: 1.5rem;
+  }
 
-    @media (min-width: 2560px) {
-        font-size: 2.8rem;
-    }
+  @media (min-width: 2560px) {
+    font-size: 2.8rem;
+  }
 }
 
-.biInstagramMob{
-    display: flex;
-    width: 100%;
+.biInstagramMob {
+  display: flex;
+  width: 100%;
 }
 
 .hour {
-    font-size: 0.8rem;
-    font-weight: 200;
-    padding: 4px;
+  font-size: 0.8rem;
+  font-weight: 200;
+  padding: 4px;
 
-    @media (min-width: 1440px) {
-        font-size: 1rem;
-    }
+  @media (min-width: 1440px) {
+    font-size: 1rem;
+  }
 
-    @media (min-width: 2560px) {
-        font-size: 1.5rem;
-    }
+  @media (min-width: 2560px) {
+    font-size: 1.5rem;
+  }
 }
 
-.instaButton{
-    width: 100%;
-    height: 100%;
-    background-color: #eeeeee;
-    padding: 4px;
-    border-radius: 5px;
-    border: none;
+.instaButton {
+  width: 100%;
+  height: 100%;
+  background-color: #eeeeee;
+  padding: 4px;
+  border-radius: 5px;
+  border: none;
 
-    @media (min-width: 620px) {
-        display: none;
-    }
+  @media (min-width: 620px) {
+    display: none;
+  }
 }
 
 .showInstaIcon {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    z-index: 1;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
 }
 
 .show {
-    display: flex;
+  display: flex;
 }
 
 .hidde {
-    display: none;
+  display: none;
 }
 
 .biInstagram {
-    color: #fff;
+  color: #fff;
 
+  @media (min-width: 620px) {
+    width: 48px;
+    height: 48px;
+  }
 
-    @media (min-width: 620px) {
-        width: 48px;
-        height: 48px;
+  @media (min-width: 1440px) {
+    width: 64px;
+    height: 64px;
+  }
 
-    }
-
-    @media (min-width: 1440px) {
-        width: 64px;
-        height: 64px;
-    }
-
-    @media (min-width: 2560px) {
-        width: 72px;
-        height: 72px;
-    }
+  @media (min-width: 2560px) {
+    width: 72px;
+    height: 72px;
+  }
 }
 
-.biInstagramMob{
-    color: #000;
+.biInstagramMob {
+  color: #000;
 }

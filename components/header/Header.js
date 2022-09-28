@@ -1,6 +1,9 @@
 import Image from "next/image";
 import { useState } from "react";
 import styles from "../header/header.module.scss";
+import { CgGym } from "react-icons/cg";
+import { BsFillFileTextFill, BsFillTelephoneOutboundFill } from "react-icons/bs";
+import { MdPlace } from "react-icons/md";
 
 const Header = () => {
   const [active, setActive] = useState(false);
@@ -16,6 +19,7 @@ const Header = () => {
             layout={"responsive"}
             alt={"Top Treino Logo"}
             className={styles.LogoImg}
+            objectFit={"cover"}
           />
         </div>
         <button className={styles.menuButton} onClick={() => setActive(!active)}>
@@ -38,18 +42,30 @@ const Header = () => {
         <nav className={active ? styles.active : styles.unactive}>
           <ul className={styles.navList}>
             <li className={styles.liList}>
-              <a href="#sect02">Nossos planos</a>
+              <a href="#sect02" className={styles.aHeader}>
+                <BsFillFileTextFill />
+                Nossos planos
+              </a>
             </li>
             <li className={styles.liList}>
-              <a href="#sect03">Nossa academia</a>
+              <a href="#sect03" className={styles.aHeader}>
+                <CgGym />
+                Nossa academia
+              </a>
             </li>
 
             <li className={styles.liList}>
-              <a href="#sect05">Localização</a>
+              <a href="#sect05" className={styles.aHeader}>
+                <MdPlace />
+                Localização
+              </a>
             </li>
 
             <li className={styles.liList}>
-              <a href="#sect06">Contatos</a>
+              <a href="#sect06" className={styles.aHeader}>
+                <BsFillTelephoneOutboundFill />
+                Contatos
+              </a>
             </li>
           </ul>
         </nav>

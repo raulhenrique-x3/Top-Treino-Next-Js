@@ -1,174 +1,173 @@
 $primary-color: #0c0f5e;
 $secondary-color: #0e8ed0;
 $third-color: #3e4193;
-$font-family-01: 'Inter', sans-serif;
-
+$font-family-01: "Inter", sans-serif;
 
 .Section02 {
-    width: 100%;
-    height: auto;
-    background-color: #eeeeee;
+  width: 100%;
+  height: auto;
+  background-color: #eeeeee;
 
-    @media (min-width: 620px) {
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
+  @media (min-width: 620px) {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
 
-    @media (min-width: 704px) {
-        min-height: 60vh;
-    }
+  @media (min-width: 704px) {
+    min-height: 60vh;
+  }
 }
 
 .ourPlans {
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    font-size: 1.8rem;
-    color: $primary-color;
-    padding: 8px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  font-size: 1.8rem;
+  color: $secondary-color;
+  padding: 8px;
 
-    @media (min-width: 620px) {
-        border-bottom: 2px solid $primary-color;
-    }
+  @media (min-width: 620px) {
+    border-bottom: 2px solid $primary-color;
+  }
 
-    @media (min-width: 1440px) {
-        padding: 16px;
-        font-size: 2rem;
-    }
+  @media (min-width: 1440px) {
+    padding: 16px;
+    font-size: 2rem;
+  }
 
-    @media (min-width: 2560px) {
-        padding: 32px;
-        font-size: 4rem;
-    }
+  @media (min-width: 2560px) {
+    padding: 32px;
+    font-size: 4rem;
+  }
 }
 
 .Section02Main {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    column-gap: 32px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  column-gap: 32px;
 
-    @media (min-width: 620px) {
-        flex-wrap: wrap;
-        height: 100%;
-        padding: 32px;
-        flex-direction: row;
-        justify-content: center;
-    }
+  @media (min-width: 620px) {
+    flex-wrap: wrap;
+    height: 100%;
+    padding: 32px;
+    flex-direction: row;
+    justify-content: center;
+  }
 
-    @media (min-width: 704px) {
-        flex-wrap: unset;
-    }
+  @media (min-width: 704px) {
+    flex-wrap: unset;
+  }
 }
 
 .plansInfoFig {
-    width: 65%;
-    height: 30vh;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-    margin-bottom: 16px;
+  width: 65%;
+  height: 30vh;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 16px;
 
-    @media (min-width:538px) {
-        width: 45%;
-        height: 50vh;
-    }
+  @media (min-width: 538px) {
+    width: 45%;
+    height: 50vh;
+  }
 
-    @media (min-width: 620px) {
-        width: 30%;
-        height: 40vh;
-    }
+  @media (min-width: 620px) {
+    width: 30%;
+    height: 40vh;
+  }
 
-    @media (min-width: 1440px) {
-        width: 20%;
-    }
+  @media (min-width: 1440px) {
+    width: 20%;
+  }
 
-    @media (min-width: 2560px) {
-        width: 30%;
-        border-radius: 10px;
-    }
+  @media (min-width: 2560px) {
+    width: 30%;
+    border-radius: 10px;
+  }
 }
 
 .planosInfo {
-    text-align: center;
-    color: #242424;
-    font-family: $font-family-01;
-    font-size: 1.2rem;
-    font-weight: 600;
-    border-bottom: 1px solid #4770a3a8;
+  text-align: center;
+  color: #242424;
+  font-family: $font-family-01;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-bottom: 1px solid #4770a3a8;
 
-    @media (min-width: 620px) {
-        font-weight: 800;
-    }
+  @media (min-width: 620px) {
+    font-weight: 800;
+  }
 
-    @media (min-width: 1440px) {
-        padding: 16px;
-        font-size: 1.5rem;
-    }
+  @media (min-width: 1440px) {
+    padding: 16px;
+    font-size: 1.5rem;
+  }
 
-    @media (min-width: 2560px) {
-        padding: 24px;
-        font-size: 2.8rem;
-    }
+  @media (min-width: 2560px) {
+    padding: 24px;
+    font-size: 2.8rem;
+  }
 }
 
 .priceInfo {
-    font-family: $font-family-01;
-    font-size: 1.3rem;
-    font-weight: 500;
-    opacity: 0.8;
+  font-family: $font-family-01;
+  font-size: 1.3rem;
+  font-weight: 500;
+  opacity: 0.8;
 
-    @media (min-width: 620px) {
-        font-weight: 600;
-    }
+  @media (min-width: 620px) {
+    font-weight: 600;
+  }
 
-    @media (min-width: 1440px) {
-        padding: 16px;
-        font-size: 1.4rem;
-    }
+  @media (min-width: 1440px) {
+    padding: 16px;
+    font-size: 1.4rem;
+  }
 
-    @media (min-width: 2560px) {
-        padding: 24px;
-        font-size: 2.9rem;
-    }
+  @media (min-width: 2560px) {
+    padding: 24px;
+    font-size: 2.9rem;
+  }
 }
 
 .buyButton {
-    padding: 12px 28px 12px 28px;
-    background-color: $primary-color;
-    color: #fff;
-    border: none;
-    box-shadow: #0000003d 0px 3px 8px;
-    border-radius: 10px;
-    font-size: 1.1rem;
-    font-weight: 600;
+  padding: 12px 28px 12px 28px;
+  background-color: $secondary-color;
+  color: #fff;
+  border: none;
+  box-shadow: #0000003d 0px 3px 8px;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 600;
 
-    @media (min-width: 620px) {
-        padding: 16px 24px 16px 24px;
-        font-size: 1.2rem;
-        cursor: pointer;
-    }
+  @media (min-width: 620px) {
+    padding: 16px 24px 16px 24px;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
 
-    @media (min-width: 1440px) {
-        padding: 16px 24px 16px 24px;
-        font-size: 1.4rem;
-    }
+  @media (min-width: 1440px) {
+    padding: 16px 24px 16px 24px;
+    font-size: 1.4rem;
+  }
 
-    @media (min-width: 2560px) {
-        padding: 48px 64px 48px 64px;
-        font-size: 3rem;
-    }
+  @media (min-width: 2560px) {
+    padding: 48px 64px 48px 64px;
+    font-size: 3rem;
+  }
 }
 
 .buyButton:hover {
-    background-color: $secondary-color;
-    transition: 0.3s ease-in-out;
+  background-color: $secondary-color;
+  transition: 0.3s ease-in-out;
 }
