@@ -88,11 +88,11 @@ $text-shadow: 2px 1px #0000002a;
 
 .ourPlansButton {
   width: 80%;
-  background-color: unset;
+  background-color: #fff;
   border: 1px #fff solid;
   padding: 16px;
   border-radius: 25px;
-  color: #fff;
+  color: #000;
   font-weight: 600;
 
   @media (min-width: 620px) {
@@ -101,9 +101,10 @@ $text-shadow: 2px 1px #0000002a;
 }
 
 .ourPlansButton:hover {
-  background-color: #fff;
-  color: #000;
+  background-color: $secondary-color;
+  color: #fff;
   cursor: pointer;
+  transition: 0.6s ease-in-out;
 }
 
 .gymBackGround {

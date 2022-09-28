@@ -11,7 +11,9 @@ const Section01 = () => {
             <br />
             uma fábrica de <p className={styles.champions}>CAMPEÕES!</p>
           </h1>
-          <button className={styles.ourPlansButton}>Conheça nossos planos!</button>
+          <button className={styles.ourPlansButton}>
+            <a href="#sect02"></a> Conheça nossos planos!
+          </button>
         </div>
 
         <div className={styles.gymBackGround}>
